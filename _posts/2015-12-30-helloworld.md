@@ -3,11 +3,11 @@ layout: post
 title:  "测试文档"
 date:   2015-06-30
 description: "HelloWorld"
-categories: works 
+categories: works
 ---
 
 #### 图片演示
-![喜欢的图片]({{ site.url }}/assets/images/bizhi.jpg)
+![喜欢的图片](/images/bizhi.jpg)
 
 #### 代码演示
 {% highlight c++ linenos %}
