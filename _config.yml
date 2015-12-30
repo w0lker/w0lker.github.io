@@ -1,0 +1,15 @@
+# Site settings
+title: w0lker
+description:
+baseurl: ""
+url: "http://w0lker.github.io"
+
+github_username: w0lker
+twitter_username: w0lker_tg
+email: #w0lker.tg@gmail.com
+
+# Build settings
+markdown: kramdown
+
+# Outputing
+timezone: Asia/Beijing
