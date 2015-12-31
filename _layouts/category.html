@@ -1,44 +1,36 @@
 ---
 layout: default
 ---
-{% for category in site.data.categories %}
-  {% if category.slug == page.category %}
-    {% assign category_name =  category.name %}
-  {% endif %}
-{% endfor %}
 
+{% for category in site.data.categories %}
+{% if category.slug == page.category %}
+{% assign category_name =  category.name %}
+{% endif %}
+{% endfor %}
 <h1 class="page-title">
-    <div class="page-title__text">{{ category_name }}</div>
-    <div class="page-title__subtitle">Articles on the category <strong>‘{{ category_name }}’</strong></div>
+  <div class="page-title__text">{{ category_name }}</div>
+  <div class="page-title__subtitle">文章类目为： <strong>‘{{ category_name }}’</strong></div>
 </h1>
 
-<div class="explore">
-    <ul class="categories">
-        {% for category in site.data.categories %}
-            <li class="categories__item"><a href="{{ '/categories/' | append: category.slug | prepend: site.baseurl }}">{{ category.name }}</a></li>
-        {% endfor %}
-		<li class="categories__item"><a href="{{ '/' | prepend: site.baseurl }}">全部</a></li>
-    </ul>
-</div>
+{% include categories/explore.html %}
 
 <ul class="list-posts">
-    {% assign empty_category = true %}
-    {% for post in site.posts %}
-        {% if post.categories contains page.category %}
-            <li class="post-teaser">
-                <a href="{{ post.url | prepend: site.baseurl }}">
-                    <span class="post-teaser__title">{{ post.title }}</span>
-                    <span class="post-teaser__date">{{ post.date | date: "%d %B %Y" }}</span>
-                </a>
-            </li>
-            {% assign empty_category = false %}
-        {% endif %}
-    {% endfor %}
+  {% assign empty_category = true %}
+  {% for post in site.posts %}
+  {% if post.categories contains page.category %}
+  <li class="post-teaser">
+    <a href="{{ post.url | prepend: site.baseurl }}">
+      <span class="post-teaser__title">{{ post.title }}</span>
+      <span class="post-teaser__date">{{ post.date | date: "%d %B %Y" }}</span>
+    </a>
+  </li>
+  {% assign empty_category = false %}
+  {% endif %}
+  {% endfor %}
 
-    {% if empty_category %}
-        <li class="empty-post-list">
-            It seems that there are no articles on that category,
-            please go back <a href="/">home</a> to see the full list of articles.
-        </li>
-    {% endif %}
+  {% if empty_category %}
+  <li class="empty-post-list">
+    该类目下不存在文章，请返回 <a href="/">全部</a> 查看完整文章列表。
+  </li>
+  {% endif %}
 </ul>

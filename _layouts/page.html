@@ -1,17 +1,10 @@
 ---
 layout: default
 ---
-<h1 class="page-title">
-    <div class="page-title__text">{{ page.title }}</div>
-    <div class="page-title__subtitle">{{ page.subtitle }}</div>
-</h1>
-<div class="explore">
-    <ul class="categories">
-        {% for category in site.data.categories %}
-            <li class="categories__item"><a href="{{ '/categories/' | append: category.slug | prepend: site.baseurl }}">{{ category.name }}</a></li>
-        {% endfor %}
-        <li class="categories__item"><a href="{{ '/' | prepend: site.baseurl }}">全部</a></li>
-    </ul>
-</div>
 
+<h1 class="page-title">
+  <div class="page-title__text">{{ page.title }}</div>
+  <div class="page-title__subtitle">{{ page.subtitle }}</div>
+</h1>
+{% include categories/explore.html %}
 {{ content }}
