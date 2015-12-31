@@ -7,6 +7,8 @@
   <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
 
+  <link rel="shortcut icon" href="/favicon.ico"/>
+  <link rel="bookmark" href="/favicon.ico"/>
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "/assets/vendor/normalize-css/normalize.css" | prepend: site.baseurl }}">
@@ -21,5 +23,5 @@
     tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
     });
   </script>
-  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  <script src="/assets/MathJax/MathJax.js?config=TeX-AMS_HTML-full"></script>
 </head>
