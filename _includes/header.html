@@ -4,14 +4,14 @@
   </div>
 
   <ul class="social-links">
-    {% if site.github_username %}
-    <a href="https://github.com/{{ site.github_username }}" class="social-links__entry" target="_blank">
+    {% if site.author.github %}
+    <a href="https://github.com/{{ site.author.github }}" class="social-links__entry" target="_blank">
       <i class="fa fa-github"></i>
     </a>
     {% endif %}
 
-    {% if site.twitter_username %}
-    <a href="https://twitter.com/{{ site.twitter_username }}" class="social-links__entry" target="_blank">
+    {% if site.author.twitter %}
+    <a href="https://twitter.com/{{ site.author.twitter }}" class="social-links__entry" target="_blank">
       <i class="fa fa-twitter"></i>
     </a>
     {% endif %}
