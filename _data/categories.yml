@@ -1,8 +1,8 @@
-- slug: travel
-  name: 旅行
-
 - slug: works
   name: 工作
+
+- slug: travel
+  name: 旅行
 
 - slug: other
   name: 扯淡

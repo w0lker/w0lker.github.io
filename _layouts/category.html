@@ -9,7 +9,7 @@ layout: default
 {% endfor %}
 <h1 class="page-title">
   <div class="page-title__text">{{ category_name }}</div>
-  <div class="page-title__subtitle">文章类目为： <strong>‘{{ category_name }}’</strong></div>
+  <div class="page-title__subtitle">{{ page.subtitle }}</div>
 </h1>
 
 {% include categories/explore.html %}
