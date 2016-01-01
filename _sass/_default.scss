@@ -98,8 +98,8 @@ strong {
 
 /* =Titles */
 .page-title {
-    margin-top:10px;
-    margin-bottom:25px;
+    margin-top:0px;
+    margin-bottom:20px;
     text-align: center;
 }
 
@@ -111,7 +111,7 @@ strong {
 .page-title__subtitle {
     font-weight: 400;
     font-size: 22px;
-    margin-top: 10px;
+    margin-top: 20px;
     color: $cloudy;
 }
 
@@ -163,6 +163,7 @@ strong {
     text-align: center;
     color: $cloudy;
     margin-top: 0px;
+    margin-bottom: 30px;
 }
 
 .explore__devider {
