@@ -13,7 +13,8 @@ categories: works
 
 $$
 \begin{aligned}
-\min\limits_{\omega, \gamma, \xi}& \left[
+\min\limits_{\omega, \gamma, \xi}&
+\left[
 \frac12 \|\omega\|^2_2 + C \sum_{i=1}^n \xi_i
 \right] \\
 s. t. \ & (\omega^T x_i + \gamma) y_i \geq 1 - \xi_i, \ \forall i = 1, \ldots, n \\
