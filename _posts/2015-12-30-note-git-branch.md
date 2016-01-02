@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "2015-12－30笔记"
+title:  "[笔记]git分支操作"
 date:   2015-12-30
-description: "2015-12－30笔记"
-tags: 头脑风暴,笔记
-categories: other
+description: "git分支操作"
+tags: git分支
+categories: works
 ---
 
 ### git分支操作
@@ -42,16 +42,3 @@ categories: other
 
 #### 提交所有tag
     git push --tags
-
-### github使用jekyll方法
-
-#### 安装ruby
-
-#### 安装bundler
-    gem install bundler
-
-#### 安装jekyll
-    gem install jekyll
-
-#### 安装github-pages
-    gem install github-pages
