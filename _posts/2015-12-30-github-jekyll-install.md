@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "[笔记]github使用jekyll方法"
+title:  "Github使用jekyll方法"
 date:   2015-12-30
 description: "Github使用jekyll方法"
-tags: jekyll,安装
+tags: github,jekyll,安装
 categories: works
 ---
 
