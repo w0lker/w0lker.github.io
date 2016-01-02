@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "[转载]从知乎上看到的爬虫架构"
+title:  "从知乎上看到的爬虫架构"
 date:   2015-12-30
-description: "[转载]从知乎上看到的爬虫架构"
+description: "从知乎上看到的爬虫架构"
 tags: 爬虫,架构,调度
 categories: works
 ---
