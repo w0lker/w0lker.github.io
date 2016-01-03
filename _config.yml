@@ -13,6 +13,7 @@ author:
   email: w0lker_tg@gmail.com
 
 google_analytics: 'UA-71881782-1'
+baidu_analytics: '722e76bcde4126eafcafc23bb5a40f32'
 
 # Build settings
 markdown: kramdown
