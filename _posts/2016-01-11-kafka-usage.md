@@ -7,6 +7,10 @@ tags: kafka,使用
 categories: works
 ---
 
+### kafka帮助地址
+
+    http://kafka.apache.org/documentation.html#quickstart
+
 ### 创建topic
     kafka-topics.sh --zookeeper pcs2.secoo-inc.com/kafka --create --replication-factor 1 --partition 1 --topic test
 
@@ -20,3 +24,8 @@ categories: works
 
 #### 测试接收消息
     kafka-console-consumer.sh --zookeeper pcs2.secoo-inc.com/kafka --topic test --from-beginning
+
+#### 查看topic信息
+    kafka-topics.sh --describe --zookeeper pcs2.secoo-inc.com/kafka --topic test
+
+####
