@@ -11,7 +11,7 @@ categories: works
 非常好用的grep工具,查找代码或者其它什么的太方便了，[项目地址](https://github.com/mooz/percol)。
 
 
-### EOF
+### --EOF--
 
 
 
