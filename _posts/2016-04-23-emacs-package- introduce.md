@@ -37,3 +37,5 @@ minor-mode用记住已经访问过得历史文件
 #### flyspell
 拼写检查工具
 
+### EOF
+
