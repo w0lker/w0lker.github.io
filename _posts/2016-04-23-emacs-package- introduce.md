@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Emacs使用包介绍"
+title:  "emacs使用包介绍"
 date:   2016-04-23
-description: "Emacs使用包介绍"
-tags: 笔记,Emacs,diminish,ag,recentf,mmm,subword-mode,multiple-cursors
+description: "emacs使用包介绍"
+tags: 笔记,emacs,diminish,ag,recentf,mmm,subword-mode,multiple-cursors
 categories: works
 ---
 
