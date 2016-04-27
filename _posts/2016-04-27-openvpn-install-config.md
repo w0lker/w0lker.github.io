@@ -115,10 +115,15 @@ categories: works
 - 配置iptables转发,请确定网络接口是否为eth0,如果不是要替换
 
     	-A POSTROUTING -s 10.8.0.0/24 -o eth0 -j MASQUERADE
+
     	-A INPUT -p udp -m state --state NEW -m udp --dport 1194 -j ACCEPT
+
     	-A INPUT -p tcp -m state --state NEW -m tcp --dport 1194 -j ACCEPT 
+
     	-A INPUT -i tun+ -j ACCEPT
+
 	    -A INPUT -s 10.8.0.0/24 -j ACCEPT
+
 	    -A FORWARD -i tun+ -j ACCEPT
     
 - 设置开机启动
