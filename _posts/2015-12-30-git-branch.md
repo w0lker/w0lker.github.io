@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Git分支操作"
+title:  "git分支操作"
 date:   2015-12-30
 description: "git分支操作"
 tags: git分支
