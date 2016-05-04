@@ -11,6 +11,11 @@ categories: works
 
 	brew install Caskroom/cask/sshfs
 
+### 使用
+	sshfs -o allow_other,reconnect,cache=yes 用户名@主机地址:远程目录 本地挂载目录
+	# -o的参数有很多，可以通过 man sshfs查看
+	
+
 ### 错误解决
 
 问题：(process:2435): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed

@@ -41,13 +41,19 @@ the_silver_searcher搜索代码神器，可以用来替代grep
 可以用来在按下某个快捷键前缀后入按下Ctrl键后提示所有以Ctrl开头的快捷键
 
 #### mwe-log-commands
-可以显示输入的快捷键，一般在演示代码的时候使用。[说明地址](http://melpa.org/#/mwe-log-commands)
+可以显示输入的快捷键，一般在演示代码的时候使用。[使用手册地址](http://melpa.org/#/mwe-log-commands)
 
 #### anzu
 非常强大的搜索增强工具，可以让通过C-s或者C-r搜索时显示匹配到的结果数量，以及目前光标所在的匹配位置
 
 #### indent-guide
 很好的工具，可以在代码快前显示一个竖线，方便知道代码的层次
+
+#### tramp
+可以很方便的在本地编辑远程服务器上的文件，非常推荐。已经集成到新版本的emacs中。[使用手册地址](https://www.emacswiki.org/emacs/TrampMode)
+
+如果有一个远程的开发环境使用这个太方便了。
+
 
 
 ##### --EOF--
