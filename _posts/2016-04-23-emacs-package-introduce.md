@@ -54,6 +54,8 @@ the_silver_searcher搜索代码神器，可以用来替代grep
 
 如果有一个远程的开发环境使用这个太方便了。
 
+#### comint
+emacs用来处理buffer传过来的命令并且交由指定的处理器去处理的一个代理模块。sql-mode和shell-mode都是基于这个模式的。（Comint mode is a package that defines a general command-interpreter-in-a-buffer. ）[使用手册地址](https://www.emacswiki.org/emacs/ComintMode)
 
 
 ##### --EOF--
