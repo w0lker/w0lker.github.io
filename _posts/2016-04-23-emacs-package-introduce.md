@@ -57,6 +57,9 @@ the_silver_searcher搜索代码神器，可以用来替代grep
 #### comint
 emacs用来处理buffer传过来的命令并且交由指定的处理器去处理的一个代理模块。sql-mode和shell-mode都是基于这个模式的。（Comint mode is a package that defines a general command-interpreter-in-a-buffer. ）[使用手册地址](https://www.emacswiki.org/emacs/ComintMode)
 
+#### winner
+winner是一个副模式，激活后可以使用C-c <left> 和C-c <right>来对窗口配置进行redo或者undo。
+这样在窗口乱了后可以随时恢复到原来不乱的状态，特别适合使用很多window的场景（emacs中window类似其它编辑器的tab）。
 
 ##### --EOF--
 
