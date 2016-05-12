@@ -61,5 +61,14 @@ emacs用来处理buffer传过来的命令并且交由指定的处理器去处理
 winner是一个副模式，激活后可以使用C-c <left> 和C-c <right>来对窗口配置进行redo或者undo。
 这样在窗口乱了后可以随时恢复到原来不乱的状态，特别适合使用很多window的场景（emacs中window类似其它编辑器的tab）。
 
+#### cedet
+很强大的开发环境工具集。
+
+* EDE(emacs development enviroment)其实就是提供emacs一些ide的类似功能。使用ede可以启动cedet的工程管理功能，会将项目的很多enviroment信息封装到很多对象中，便于auto-complete或者代码检查等插件使用。
+* Semantic语法解析器，并且能讲解析后的数据存入db中。就是比起clang来速度有点慢。能支持增量分析和空闲时分析。
+* SRecode功能应该类似于yasnippet
+* Cogre支持绘图用的
+* Speedbar显示项目文件的目录树，我不喜欢用
+
 ##### --EOF--
 
