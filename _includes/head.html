@@ -7,21 +7,20 @@
   <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
 
-  <link rel="shortcut icon" href="/favicon.ico"/>
-  <link rel="bookmark" href="/favicon.ico"/>
+  <link rel="icon" href="/favicon.ico"/>
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "/assets/vendor/normalize-css/normalize.css" | prepend: site.baseurl }}">
-  <link rel="stylesheet" href="{{ "/assets/vendor/highlight/styles/solarized_dark.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "/assets/vendor/font-awesome/css/font-awesome.css" | prepend: site.baseurl }}">
-
+  
+  <link rel="stylesheet" href="{{ "/assets/vendor/highlight/styles/color-brewer.css" | prepend: site.baseurl }}">
   <script src="{{ "/assets/vendor/highlight/highlight.pack.js" | prepend: site.baseurl }}"></script>
   <script>hljs.initHighlightingOnLoad();</script>
 
+  <script src="/assets/vendor/mathjax/MathJax.js?config=TeX-AMS_HTML-full"></script>
   <script type="text/x-mathjax-config">
     MathJax.Hub.Config({
     tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
     });
   </script>
-  <script src="/assets/MathJax/MathJax.js?config=TeX-AMS_HTML-full"></script>
 </head>

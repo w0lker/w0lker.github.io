@@ -7,10 +7,7 @@ layout: default
 {% assign category_name =  category.name %}
 {% endif %}
 {% endfor %}
-<h1 class="page-title">
-  <div class="page-title__text">{{ category_name }}</div>
-  <div class="page-title__subtitle">{{ page.subtitle }}</div>
-</h1>
+<h1 class="page-title"></h1>
 
 {% include categories/explore.html %}
 
@@ -30,7 +27,7 @@ layout: default
 
   {% if empty_category %}
   <li class="empty-post-list">
-    该类目下不存在文章，请返回 <a href="/">全部</a> 查看完整文章列表。
+    该类目下不存在文章。
   </li>
   {% endif %}
 </ul>
