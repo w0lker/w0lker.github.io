@@ -4,7 +4,7 @@ title:  "普瑞马法则提高工作效率"
 date:   2016-01-03
 description: "普瑞马法则提高工作效率"
 tags: 头脑风暴,普瑞马法则,效率,工作
-categories: other
+categories: gossip
 ---
 
 当你觉得生活充满惰性，学习充满困难，不妨了解一下大脑是怎么想的，用“普瑞马法则”来处理问。
