@@ -16,3 +16,5 @@ markdown: kramdown
 
 # Outputing
 timezone: Asia/Harbin
+
+theme: jekyll-theme-minimal
